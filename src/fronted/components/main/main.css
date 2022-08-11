@@ -1,0 +1,30 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  font-size: 30px;
+  position: relative;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  /* position: absolute; */
+}
+.text {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+}
+.white {
+  color: white;
+}
