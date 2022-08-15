@@ -3,21 +3,19 @@ import style from "styled-components";
 import "./button.css";
 
 const Button = style.button`
-width:200px;
-height:50px;
+width:65px;
 color:${(props) => props.text};
-
 border: 1px solid black;
-width: 30px;
-height: 20px;
 font-size: 16px;
-  margin-top: 25px;
-background-color: ${(props) => props.color};
+margin-top: 25px;
+  background-color: ${(props) => props.color};
 &:hover{
     cursor:pointer;
-    background-color:${(props) => props.hover};
+    background-color:${(props) => props.hovercolor};
+    color:${(props) => props.hovertext};
     
 }
+
 `;
 
 export default Button;

@@ -24,7 +24,16 @@ img {
   position: absolute;
   top: 55px;
   left: 50px;
+  bottom: auto;
 }
 .white {
   color: white;
+}
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .text {
+    position: absolute;
+    bottom: 30px;
+    top: auto;
+  }
 }

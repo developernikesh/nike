@@ -1,0 +1,36 @@
+.card-container {
+  width: 400px;
+  overflow: hidden;
+  /* box-shadow: 0px 0px 15px -5px; */
+  transition: 0.3s;
+  animation: ease-in-out;
+  margin: 10px;
+}
+/* .card-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+} */
+
+.image-container img {
+  overflow: hidden;
+  height: 350px;
+}
+.card-slag {
+  color: #9e3401;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.card-body,
+.color {
+  color: #757575;
+}
+p {
+  margin-bottom: 1px;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
