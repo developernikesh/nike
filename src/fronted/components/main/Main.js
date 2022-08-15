@@ -18,11 +18,9 @@ export const Main = () => {
               <h3>
                 The Always Legendary <br /> Air Force 1
               </h3>
-              <Button
-                title="Shop"
-                colorStyle="bg-white text-black"
-                style="hover:#B2B2B2"
-              />
+              <Button color={"blue"} hover={"white"}>
+                Shop
+              </Button>
             </div>
           </div>
           <div className="grid-item">
@@ -36,7 +34,9 @@ export const Main = () => {
               <h3>
                 New In Nike Basketball, <br /> Featuring the PG 6
               </h3>
-              <Button title="Shop" colorStyle="bg-dark text-white" />
+              <Button color={"blue"} hover={"white"}>
+                Shop
+              </Button>
             </div>
           </div>
         </div>
