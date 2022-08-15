@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
 import Button from "../button/Button";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 export const Main = () => {
   return (
     <>
@@ -19,15 +19,16 @@ export const Main = () => {
               <h3>
                 The Always Legendary <br /> Air Force 1
               </h3>
-
-              <Button
-                color={"#fff"}
-                hovercolor={"#b2b2b2"}
-                text={"black"}
-                hovertext={"black"}
-              >
-                <Link to={"../page/CardList.js"}>Shop</Link>
-              </Button>
+              <Link to={"../page/CardList.js"}>
+                <Button
+                  color={"#fff"}
+                  hovercolor={"#b2b2b2"}
+                  text={"black"}
+                  hovertext={"black"}
+                >
+                  Shop
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="grid-item">
