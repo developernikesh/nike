@@ -10,7 +10,7 @@ const CardList = () => {
         imageUrl="/image/nike1.webp"
         slag="Just In"
         description="Men's Trail Running Shoes"
-        color="3"
+        color="1"
         price="160"
       />
       <Card
@@ -28,7 +28,7 @@ const CardList = () => {
         imageUrl="/image/nike1.webp"
         slag="Just In"
         description="Men's Trail Running Shoes"
-        color="3"
+        color="1"
         price="160"
       />
       <Card
@@ -46,7 +46,7 @@ const CardList = () => {
         imageUrl="/image/nike1.webp"
         slag="Just In"
         description="Men's Trail Running Shoes"
-        color="3"
+        color="0"
         price="160"
       />
       <Card

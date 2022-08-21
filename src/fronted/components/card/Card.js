@@ -18,7 +18,9 @@ const Card = ({ title, imageUrl, description, price, slag, color }) => {
           <p>{description}</p>
         </div>
         <div className="color">
-          <p>{color} Colors</p>
+          <p>
+            {color} {color > 1 ? "Colors" : "Color"}
+          </p>
         </div>
         <div className="price">
           <p>${price}</p>

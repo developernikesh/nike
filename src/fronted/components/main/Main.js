@@ -2,7 +2,10 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
 import Button from "../button/Button";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Categories from "../page/Categories";
+import Detail from "../page/Detail";
+
 export const Main = () => {
   return (
     <>
@@ -19,12 +22,16 @@ export const Main = () => {
               <h3>
                 The Always Legendary <br /> Air Force 1
               </h3>
-              <Link to={"../page/CardList.js"}>
+              <Link to="/products">
                 <Button
                   color={"#fff"}
                   hovercolor={"#b2b2b2"}
                   text={"black"}
                   hovertext={"black"}
+                  onClick={() => {
+                    console.log("Click");
+                    // Router.push("../page/CardList.js")
+                  }}
                 >
                   Shop
                 </Button>
@@ -53,6 +60,12 @@ export const Main = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="categories">
+        <Categories />
+      </div>
+      <div className="detail">
+        <Detail />
       </div>
     </>
   );
